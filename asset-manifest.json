@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Text_Utills_React_app/static/css/main.073c9b0a.css",
-    "main.js": "/Text_Utills_React_app/static/js/main.00e5665f.js",
+    "main.css": "/Text_Utills_React_app/static/css/main.62a18e5f.css",
+    "main.js": "/Text_Utills_React_app/static/js/main.6981fcec.js",
     "static/js/787.60bef553.chunk.js": "/Text_Utills_React_app/static/js/787.60bef553.chunk.js",
     "index.html": "/Text_Utills_React_app/index.html",
-    "main.073c9b0a.css.map": "/Text_Utills_React_app/static/css/main.073c9b0a.css.map",
-    "main.00e5665f.js.map": "/Text_Utills_React_app/static/js/main.00e5665f.js.map",
+    "main.62a18e5f.css.map": "/Text_Utills_React_app/static/css/main.62a18e5f.css.map",
+    "main.6981fcec.js.map": "/Text_Utills_React_app/static/js/main.6981fcec.js.map",
     "787.60bef553.chunk.js.map": "/Text_Utills_React_app/static/js/787.60bef553.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.00e5665f.js"
+    "static/css/main.62a18e5f.css",
+    "static/js/main.6981fcec.js"
   ]
 }
