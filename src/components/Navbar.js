@@ -44,7 +44,7 @@ export default function Navbar(props) {
             </li>
             
 
-            <li className="nav-item dropdown m-2">
+            <li className="nav-item dropdown m-2 mx-1">
               <div className="form-check form-switch ">
                 <input
                   className="form-check-input "
@@ -63,7 +63,7 @@ export default function Navbar(props) {
             {isAuthenticated ? (
               <li>
                 <button
-                  className={`btn btn-primary  border-${props.mode2} text-small text-${props.mode2}  bg-${props.mode}`}
+                  className={`mx-1 btn btn-primary  border-${props.mode2} text-small text-${props.mode2}  bg-${props.mode}`}
                   onClick={() => logout({ returnTo: window.location.origin })}
                 >
                   Log Out
