@@ -29,7 +29,7 @@ export default function Textform(props) {
     <div className="container" >
 
   
-      <h1 className={`text-${props.mode}`} >{props.heading} </h1>
+      <h1 className={`text-${props.mode} fs-3 `} >{props.heading} </h1>
 
       <div className="mb-3  ">
         <textarea
@@ -63,6 +63,7 @@ export default function Textform(props) {
         >
           Copy to Clipboard
         </button>
+        
       </div>
       </div>
       <div className="container">
@@ -73,8 +74,8 @@ export default function Textform(props) {
     <h5 className="card-title">Text Summary</h5>
 
     <ul>
-      <li>word total count {text.length} </li>
-      <li>word count {text.split(" ").length-1} </li>
+      {/* <li>Letters  count {text.length} </li> */}
+      <li>word count {text.trim().split(/\s+/).length} </li>
       <li>Average time to read  {(text.split(" ").length-1) * .008} min</li>
     </ul>
     
